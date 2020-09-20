@@ -1,0 +1,21 @@
+.searchPanel {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom : 20px;
+    display: flex;
+}
+.btn {
+    width: 50%;
+    font-family: Open Sans;
+    font-size: 12px;
+    padding: 20px;
+    font-weight: 600;
+}
+.active {
+    background-color: #2196F3;
+    color: white;
+}
+.noactive {
+    background-color: white;
+    color: black;
+}

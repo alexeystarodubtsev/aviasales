@@ -1,0 +1,38 @@
+.ticket {
+    background-color: white;
+    margin-bottom : 20px;
+
+    border-radius: 5%;
+    font-family: Open Sans;
+    font-weight: 600;
+}
+.price {
+    text-align: left;
+    padding: 20px;
+    color: #2196F3;
+    font-size : 24px;
+    font-weight: bold;
+}
+.PriceWithLogo {
+    display: flex;
+    
+}
+.header {
+    color: #A0B0B9;
+}
+.part {
+    margin-right : 50px;
+    margin-left : 20px;
+    margin-bottom: 20px;
+    color: #4A4A4A;
+}
+.Logo {
+    margin-right: 30px;
+    margin-left: auto;
+    margin-top: 20px;
+    text-align: right;
+    width: 110px;
+    height: 36px;
+/* 
+    background: url("S7_Logo.png"); */
+}
