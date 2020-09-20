@@ -21,7 +21,7 @@ const ListTickets = ({tickets, STOPS, AddTickets}) => {
             const newTickets = data.tickets.map((t, index) => {return {...t, id : index + startId}})
             AddTickets(newTickets);
             startId+=newTickets.length
-            console.log(newTickets);
+            
           })
           .catch((err) => {console.log("we've got error")});
         ;

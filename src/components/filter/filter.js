@@ -36,7 +36,11 @@ const Filter = ({STOPS, AddStop,DeleteStop}) => {
             {filterPositions.map((f) => {
                 return (
                     <div className = "pos" key={f.title}>
-                        <input type="checkbox" checked = {StopContain(f.title) } onChange = {(e) => mark(e,f)} />
+                        <input 
+                            type="checkbox" 
+                            checked = {StopContain(f.title) } 
+                            onChange = {(e) => mark(e,f)}
+                            style = {{backgroungColor: "#2196F3"}} />
                         <label>{f.titleName}</label>
                     </div>
                 )

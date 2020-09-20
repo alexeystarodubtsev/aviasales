@@ -13,6 +13,11 @@
     text-align: left;
     margin-top: .5rem;
 }
+.pos :hover {
+    background-color: #F1FCFF;
+    
+    
+}
 input {
     margin-right: 1rem;
 }
